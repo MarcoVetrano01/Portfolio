@@ -1,0 +1,192 @@
+/* Custom CSS per lo stile delle "Cards" */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.main {
+    /* Lasciamo che il tema gestisca il background per supportare light/dark mode */
+    /* background-color: #f8f9fa; */
+}
+
+/* Stabilizza la Navbar per evitare cambi di altezza tra i temi */
+.navbar {
+    min-height: 60px; /* Altezza minima fissa */
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+/* Standardizza i contenitori per evitare shift orizzontali */
+.navbar .container-fluid, 
+.navbar .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar-brand {
+    font-size: 1.25rem !important; 
+    font-weight: 700 !important; /* Forza lo stesso peso del font */
+    line-height: inherit;
+    padding-top: 0.3125rem !important;
+    padding-bottom: 0.3125rem !important;
+    margin-right: 1rem !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem !important;
+    font-weight: 400 !important; /* Forza lo stesso peso del font */
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 700 !important; /* Grassetto per la tab attiva */
+}
+
+/* =========================================
+   PALETTE "SAGE & STONE" (SOLO LIGHT MODE)
+   ========================================= */
+
+/* Sfondo e Testo */
+body.quarto-light {
+    background-color: #FAF9F6 !important; /* Alabaster */
+    color: #354F52 !important; /* Dark Slate Green (Usiamo il primario come testo base scuro) */
+}
+
+/* Colore Primario per i Titoli */
+body.quarto-light h1, 
+body.quarto-light h2, 
+body.quarto-light h3, 
+body.quarto-light h4, 
+body.quarto-light h5, 
+body.quarto-light h6 {
+    color: #354F52 !important; /* Dark Slate Green */
+}
+
+/* Colore Primario per la Navbar */
+body.quarto-light .navbar {
+    background-color: #354F52 !important; /* Dark Slate Green */
+}
+
+/* Navbar text adjustment */
+body.quarto-light .navbar-brand,
+body.quarto-light .navbar-nav .nav-link {
+    color: #FAF9F6 !important; /* Alabaster */
+}
+
+body.quarto-light .navbar-nav .nav-link:hover {
+    color: #84A98C !important; /* Sage hover */
+}
+
+/* Colore Secondario per Link */
+body.quarto-light a {
+    color: #52796F; /* Una variante leggermente più scura del Sage per leggibilità su fondo chiaro */
+}
+
+body.quarto-light a:hover {
+    color: #354F52; /* Dark Slate Green */
+}
+
+/* Pulsanti Link (Accento) */
+body.quarto-light .button-link {
+    background-color: #84A98C !important; /* Sage */
+    color: white !important;
+    border-radius: 50px;
+}
+body.quarto-light .button-link:hover {
+    background-color: #354F52 !important; /* Dark Slate Green */
+}
+
+/* Styling generale */
+div.quarto-title h1.title {
+    margin-top: 0;
+}
+
+.profile-img {
+    border-radius: 50% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px !important; /* Leggermente più piccola */
+    max-width: 90% !important; /* Ottimo per schermi piccoli */
+    height: auto !important;
+    aspect-ratio: 1/1;
+    object-fit: cover !important;
+}
+
+/* =========================================
+   MOBILE RESPONSIVENESS & NAVBAR FIXES
+   ========================================= */
+
+@media (max-width: 991px) {
+    /* Titolo Navbar Mobile: evita overflow e permette il wrapping */
+    .navbar-brand {
+        font-size: 1.1rem !important;
+        white-space: normal !important;
+        max-width: 70% !important;
+        line-height: 1.2 !important;
+        display: inline-flex !important;
+        align-items: center;
+        margin-right: 0 !important;
+    }
+
+    /* Nasconde il container strumenti originale su mobile per evitare spazi vuoti */
+    .quarto-navbar-tools {
+        display: none !important;
+    }
+
+    /* Navbar items layout mobile */
+    .navbar-nav {
+        padding-top: 1rem;
+        margin-top: 0.5rem;
+    }
+}
+
+/* =========================================
+   CUSTOM DARK MODE TOGGLE ICONS (TEXT)
+   ========================================= */
+
+/* Nascondiamo l'icona predefinita di Bootstrap */
+.quarto-color-scheme-toggle i {
+    display: none !important;
+}
+
+/* Stile base per il testo del toggle */
+.quarto-color-scheme-toggle::after {
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid currentColor;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Quando siamo in LIGHT mode -> Mostra pulsante per passare a Dark */
+body.quarto-light .quarto-color-scheme-toggle::after {
+    content: "Dark Mode";
+    color: #FAF9F6; /* Alabaster */
+    border-color: #FAF9F6;
+}
+
+body.quarto-light .quarto-color-scheme-toggle:hover::after {
+    background-color: #FAF9F6;
+    color: #354F52; /* Dark Slate Green */
+    text-decoration: none;
+}
+
+/* Quando siamo in DARK mode -> Mostra pulsante per passare a Light */
+body.quarto-dark .quarto-color-scheme-toggle::after {
+    content: "Light Mode";
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+body.quarto-dark .quarto-color-scheme-toggle:hover::after {
+    background-color: #e0e0e0;
+    color: #222;
+    text-decoration: none;
+}
+
