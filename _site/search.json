@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html#esperienze",
+    "href": "index.html#esperienze",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Esperienze",
+    "text": "Esperienze\nData Analyst | Quantum Computing Researcher\n2023 – Presente | Università degli Studi di Palermo\n\nSviluppo di algoritmi ibridi (Quantum-Classical) per l’analisi e la classificazione di grandi dataset astrofisici (Progetto PNRR STILES).\nOttimizzazione di pipeline di calcolo su infrastrutture HPC (Leonardo) e dispositivi IBM Quantum, riducendo i tempi di esecuzione per simulazioni complesse.\nStack: Python, HPC.\n\nData Analyst | Quantum Machine Learning applicato a Predizioni di Serie Temporali\n2025 | IFISC - Università delle Isole Baleari\n\nProgettazione e implementazione di modelli predittivi (Quantum Extreme Learning Machines) per l’analisi di serie temporali caotiche.\nApplicazione di tecniche di Reservoir Computing per migliorare l’accuratezza delle previsioni su dati non lineari.\nStack: Python, HPC."
+  },
+  {
+    "objectID": "index.html#progetti",
+    "href": "index.html#progetti",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Progetti",
+    "text": "Progetti\nQuantumToolBox\n2025 | Università degli Studi di Palermo\n\nPacchetto Python per simulazioni di dinamiche quantistiche, integrato da strumenti per la costruzione di modelli di classificazione e di predizione di serie temporali.\nDisponibile su GitHub nella repository QuantumStuff.\nStack: NumPy, SciPy.sparse, Plotly, scikit-learn.\n\nAstroQELM\n2025-2026 | Università degli Studi di Palermo\n\nSviluppo di un pacchetto Python per l’implementazione di modelli di classificazione che sfruttano il Quantum Machine Learning, applicato a dati astrofisici.\nIntegrato con Qiskit per l’esecuzione su dispositivi IBM Quantum.\nDisponibile su GitHub nella repository AstroQELM\nStack: NumPy, h5py, pandas, Qiskit, scikit-learn, Matplotlib, Seaborn."
+  },
+  {
+    "objectID": "index.html#istruzione",
+    "href": "index.html#istruzione",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Istruzione",
+    "text": "Istruzione\n\n2026 - Dottorato in Fisica, Università degli Studi di Palermo\n2026 - Machine Learning e Data Science in Python; Deep Learning e Reti Neurali in Python, Udemy by ProfessionAI\n2026 - SQL con Oracle, SQL Server e MySQL, Udemy\n2023 - Laurea Magistrale in Fisica, Università degli Studi di Palermo\n2019 - Laurea Triennale in Scienze Fisiche, Università degli Studi di Palermo"
+  },
+  {
+    "objectID": "index.html#pubblicazioni",
+    "href": "index.html#pubblicazioni",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Pubblicazioni",
+    "text": "Pubblicazioni\n\n2025 - “State estimation with quantum extreme learning machines beyond the scrambling time.”, npj Quantum Information 11.1 (2025): 20.\n2025 - “Exoplanetary atmospheres retrieval via a quantum extreme learning machine.”, arXiv preprint arXiv:2509.03617."
+  },
+  {
+    "objectID": "index.html#certificati",
+    "href": "index.html#certificati",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Certificati",
+    "text": "Certificati\n\n2026 - Certificazione Udemy: Machine Learning e Data Science in Python\n2023 - Certificazione Duolingo C1 in Inglese"
+  },
+  {
+    "objectID": "index.html#lingue",
+    "href": "index.html#lingue",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Lingue",
+    "text": "Lingue\n\nItaliano: Madre Lingua\nInglese: C1"
+  },
+  {
+    "objectID": "index.html#altre-esperienze",
+    "href": "index.html#altre-esperienze",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Altre Esperienze",
+    "text": "Altre Esperienze\nTutor Accademico (STEM)\n2022 e 2024 | Università degli Studi di Palermo\n\nSupporto alla didattica per i corsi di Fisica, Analisi Matematica e Geometria.\nMentoring personalizzato per studenti con disturbi dell’apprendimento, traducendo concetti matematici complessi in spiegazioni accessibili.\n\nData Analyst Intern\n2022 | Fondazione Ri.MED\n\nApplicazione di tecniche di Network Analysis per lo studio di strutture RNA, identificando pattern di interazione critici.\n\nData Analyst Intern\n2018 | IASF - Istituto di Astrofisica Spaziale e Fisica cosmica\n\nSviluppo di script in C per l’elaborazione e l’analisi spettrale di dati provenienti da buchi neri."
+  },
+  {
+    "objectID": "index.html#premi",
+    "href": "index.html#premi",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Premi",
+    "text": "Premi\n\n2023 - Primo posto al QuHack4AI: Quantum Hackathon for Industrial Applications, organizzato dall’Università degli Studi di Bologna e da Unipol con un progetto su algoritmi variazionali per lo studio di molecole di idrogeno e acqua.\n2023 - Premio “Eduardo Gugino” per la tesi magistrale su “Information Scrambling in Quantum Extreme Learning Machines”."
+  },
+  {
+    "objectID": "index.html#talks",
+    "href": "index.html#talks",
+    "title": "Marco Vetrano | Ricercatore & Data Analyst",
+    "section": "Talks",
+    "text": "Talks\n\n2023 - “Information Scrambling in Quantum Extreme Learning Machines for State Estimation” @ New Trends in Non-equilibrium Statistical Mechanics 2nd Course\n2024 - “QELM response to scrambling dynamics and applications to atmospheric retrieval” @ International School on Non-Equilibrium Phenomena - Quantum Reservoir Computing Working Party\n2025 - “Exoplanetary Retrieval with Quantum Extreme Learning Machines” @ Congresso Nazionale della Società Italiana dei Fisici"
+  }
+]
