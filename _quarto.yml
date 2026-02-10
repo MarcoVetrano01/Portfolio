@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/js/aos/
+
+website:
+  title: "Marco Vetrano | Ricercatore & Data Analyst"
+  favicon: "🔬"
+  search: false
+  navbar:
+    left:
+      - text: "GitHub"
+        icon: github
+        href: https://github.com/MarcoVetrano01
+        aria-label: GitHub
+      - text: "LinkedIn"
+        icon: linkedin
+        href: https://www.linkedin.com/in/marco-vetrano-1171a02ba/
+        aria-label: LinkedIn
+      - text: "Curriculum"
+        icon: file-pdf
+        href: assets/files/CV_Marco_Vetrano.pdf
+
+quarto-color-scheme:
+  toggle-position: right
+  shown: true
+
+format:
+  html:
+    theme: 
+      dark: darkly
+      light: cosmo
+    css: assets/css/styles.css
+    include-after-body: assets/js/mobile_navbar.html
+    toc: true
+    code-fold: true

@@ -1,0 +1,234 @@
+---
+title: "Marco Vetrano | Ricercatore & Data Analyst"
+format:
+  html:
+    page-layout: full
+---
+
+```{=html}
+<link href="assets/js/aos/aos.css" rel="stylesheet">
+<script src="assets/js/aos/aos.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+  });
+</script>
+```
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+::: {data-aos="fade-right"}
+<center>
+<img src="assets/images/pro_pic.png" 
+     class="profile-img" 
+     style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 20px;" 
+     onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/3209/3209041.png'">
+</center>
+
+<br>
+
+### Dati Personali
+**Marco Vetrano**
+<br>
+**Based in**: Palermo, Sicilia, Italia
+
+### Stack Tecnologico
+
+<div style="font-size: 0.85rem;">
+
+<div class="d-flex flex-wrap gap-2">
+  <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Python</span>
+  <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">LaTeX</span>
+  <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">SQL</span>
+  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Quarto</span>
+  <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Git</span>
+</div>
+
+</div>
+
+### Area di Specializzazione
+
+<ul class="list-unstyled fw-medium">
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-primary bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-radioactive text-primary"></i>
+        </span>
+        Fisica
+    </li>
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-success bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-cpu-fill text-success"></i>
+        </span>
+        Machine Learning
+    </li>
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-danger bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-share-fill text-danger"></i>
+        </span>
+        Networks
+    </li>
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-info bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-bar-chart-line-fill text-info"></i>
+        </span>
+        Analisi Dati
+    </li>
+</ul>
+
+### Contatti
+
+<a href="mailto:marco.vetrano01@gmail.com" title="Email"><i class="bi bi-envelope"></i> marco.vetrano01@gmail.com</a>
+<br>
+<a href="https://www.linkedin.com/in/marco-vetrano-1171a02ba/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i> Marco Vetrano</a>
+<br>
+
+
+
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+::: {data-aos="fade-up"}
+
+### About Me
+
+**Data Analyst** e **Fisico Computazionale** con background in **Machine Learning** e calcolo ad alte prestazioni (HPC). Ho maturato esperienza nella gestione di grandi moli di dati e nella modellazione di sistemi complessi presso centri di ricerca internazionali.
+Abituato a tradurre analisi tecniche in insight chiari e accessibili, unisco rigore scientifico e pensiero laterale per sviluppare soluzioni innovative a problemi complessi.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Esperienze
+
+**Data Analyst | Quantum Computing Researcher**
+
+*2023 -- Presente | Università degli Studi di Palermo*
+
+*   Sviluppo di algoritmi ibridi (Quantum-Classical) per l'analisi e la classificazione di grandi dataset astrofisici (Progetto PNRR STILES).
+*   Ottimizzazione di pipeline di calcolo su infrastrutture HPC (Leonardo) e dispositivi IBM Quantum, riducendo i tempi di esecuzione per simulazioni complesse.
+*   **Stack**: Python, HPC.
+
+**Data Analyst | Quantum Machine Learning applicato a Predizioni di Serie Temporali**
+
+*2025 | IFISC - Università delle Isole Baleari*
+
+*   Progettazione e implementazione di modelli predittivi (Quantum Extreme Learning Machines) per l'analisi di serie temporali caotiche.
+*   Applicazione di tecniche di Reservoir Computing per migliorare l'accuratezza delle previsioni su dati non lineari.
+*   **Stack**: Python, HPC.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Progetti
+
+**QuantumToolBox**
+
+*2025 | Università degli Studi di Palermo*
+
+*   Pacchetto Python per simulazioni di dinamiche quantistiche, integrato da strumenti per la costruzione di modelli di classificazione e di predizione di serie temporali.
+*   Disponibile su GitHub nella repository [**QuantumStuff**](https://github.com/MarcoVetrano01/QuantumStuff).
+*   **Stack**: NumPy, SciPy.sparse, Plotly, scikit-learn.
+
+**AstroQELM**
+
+*2025-2026 | Università degli Studi di Palermo*
+
+*   Sviluppo di un pacchetto Python per l'implementazione di modelli di classificazione che sfruttano il Quantum Machine Learning, applicato a dati astrofisici.
+*   Integrato con Qiskit per l'esecuzione su dispositivi IBM Quantum.
+*   Disponibile su GitHub nella repository [**AstroQELM**](https://github.com/MarcoVetrano01/AstroQELM)
+*   **Stack**: NumPy, h5py, pandas, Qiskit, scikit-learn, Matplotlib, Seaborn.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Istruzione
+
+*   **2026** - **Dottorato in Fisica**, Università degli Studi di Palermo
+*   **2026** - **Machine Learning e Data Science in Python; Deep Learning e Reti Neurali in Python**, Udemy by ProfessionAI
+*   **2026** - **SQL con Oracle, SQL Server e MySQL**, Udemy
+*   **2023** - **Laurea Magistrale in Fisica**, Università degli Studi di Palermo
+*   **2019** - **Laurea Triennale in Scienze Fisiche**, Università degli Studi di Palermo
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Pubblicazioni
+
+*   **2025** - "State estimation with quantum extreme learning machines beyond the scrambling time.", *npj Quantum Information* 11.1 (2025): 20.
+*   **2025** - "Exoplanetary atmospheres retrieval via a quantum extreme learning machine.", *arXiv preprint arXiv:2509.03617*.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Certificati
+
+*   **2026** - Certificazione Udemy: Machine Learning e Data Science in Python
+*   **2023** - Certificazione Duolingo C1 in Inglese
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Lingue
+
+*   **Italiano**: Madre Lingua
+*   **Inglese**: C1
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Altre Esperienze
+
+**Tutor Accademico (STEM)**
+
+*2022 e 2024 | Università degli Studi di Palermo*
+
+*   Supporto alla didattica per i corsi di Fisica, Analisi Matematica e Geometria.
+*   Mentoring personalizzato per studenti con disturbi dell'apprendimento, traducendo concetti matematici complessi in spiegazioni accessibili.
+
+**Data Analyst Intern**
+
+*2022 | Fondazione Ri.MED*
+
+*   Applicazione di tecniche di Network Analysis per lo studio di strutture RNA, identificando pattern di interazione critici.
+
+**Data Analyst Intern**
+
+*2018 | IASF - Istituto di Astrofisica Spaziale e Fisica cosmica*
+
+*   Sviluppo di script in C per l'elaborazione e l'analisi spettrale di dati provenienti da buchi neri.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Premi
+
+*   **2023** - Primo posto al **QuHack4AI: Quantum Hackathon for Industrial Applications**, organizzato dall'Università degli Studi di Bologna e da Unipol con un progetto su algoritmi variazionali per lo studio di molecole di idrogeno e acqua.
+*   **2023** - **Premio "Eduardo Gugino"** per la tesi magistrale su "Information Scrambling in Quantum Extreme Learning Machines".
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Talks
+
+*   **2023** - "Information Scrambling in Quantum Extreme Learning Machines for State Estimation" @ New Trends in Non-equilibrium Statistical Mechanics 2nd Course
+*   **2024** - "QELM response to scrambling dynamics and applications to atmospheric retrieval" @ International School on Non-Equilibrium Phenomena - Quantum Reservoir Computing Working Party
+*   **2025** - "Exoplanetary Retrieval with Quantum Extreme Learning Machines" @ Congresso Nazionale della Società Italiana dei Fisici
+
+:::
+
+:::
+
+:::

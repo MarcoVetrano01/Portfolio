@@ -1,0 +1,49 @@
+<script>
+/**
+ * Sposta il toggle light/dark mode all'interno del menu a tendina (collapse) sui dispositivi mobile
+ */
+function fixMobileNavbar() {
+    const isMobile = window.innerWidth < 992;
+    const toggle = document.querySelector('.quarto-color-scheme-toggle');
+    const collapseMenu = document.querySelector('.navbar-collapse');
+    const navbarTools = document.querySelector('.quarto-navbar-tools');
+
+    if (isMobile && toggle && collapseMenu) {
+        if (!collapseMenu.contains(toggle)) {
+            // Se siamo su mobile e il toggle non è nel menu, lo spostiamo lì
+            collapseMenu.appendChild(toggle);
+            toggle.classList.add('mobile-moved-toggle');
+        }
+    } else if (!isMobile && toggle && navbarTools) {
+        if (!navbarTools.contains(toggle)) {
+            // Se torniamo su desktop, lo rimettiamo al suo posto originale (tools)
+            navbarTools.appendChild(toggle);
+            toggle.classList.remove('mobile-moved-toggle');
+        }
+    }
+}
+
+// Esegui al caricamento e al ridimensionamento
+document.addEventListener('DOMContentLoaded', () => {
+    fixMobileNavbar();
+    
+    // Osservatore per gestire eventuali ricaricamenti dinamici di Quarto
+    const observer = new MutationObserver(fixMobileNavbar);
+    observer.observe(document.body, { childList: true, subtree: true });
+});
+
+window.addEventListener('resize', fixMobileNavbar);
+</script>
+
+<style>
+/* Stile aggiuntivo per il toggle quando viene spostato nel menu mobile */
+.mobile-moved-toggle {
+    margin-top: 1.5rem !important;
+    margin-left: 0.5rem !important;
+    padding-bottom: 1rem !important;
+    border-top: 1px solid rgba(128,128,128,0.2);
+    padding-top: 1rem !important;
+    display: block !important;
+    width: fit-content;
+}
+</style>
