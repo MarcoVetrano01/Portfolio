@@ -1,0 +1,232 @@
+---
+title: "Marco Vetrano | Researcher & Data Analyst"
+format:
+  html:
+    page-layout: full
+---
+
+```{=html}
+<link href="assets/js/aos/aos.css" rel="stylesheet">
+<script src="assets/js/aos/aos.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+  });
+</script>
+```
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+::: {data-aos="fade-right"}
+<center>
+<img src="assets/images/pro_pic.png" 
+     class="profile-img" 
+     style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 20px;" 
+     onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/3209/3209041.png'">
+</center>
+
+<br>
+
+### Personal Data
+**Marco Vetrano**
+<br>
+**Based in**: Palermo, Sicily, Italy
+
+### Technology Stack
+
+<div style="font-size: 0.85rem;">
+
+<div class="d-flex flex-wrap gap-2">
+  <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Python</span>
+  <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">LaTeX</span>
+  <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">SQL</span>
+  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Quarto</span>
+  <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Git</span>
+</div>
+
+</div>
+
+### Specialization Area
+
+<ul class="list-unstyled fw-medium">
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-primary bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-radioactive text-primary"></i>
+        </span>
+        Physics
+    </li>
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-success bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-cpu-fill text-success"></i>
+        </span>
+        Machine Learning
+    </li>
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-danger bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-share-fill text-danger"></i>
+        </span>
+        Networks
+    </li>
+    <li class="mb-2 d-flex align-items-center">
+        <span class="p-1 rounded-circle bg-info bg-opacity-25 me-2 d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+            <i class="bi bi-bar-chart-line-fill text-info"></i>
+        </span>
+        Data Analysis
+    </li>
+</ul>
+
+### Contacts
+
+<a href="mailto:marco.vetrano01@gmail.com" title="Email"><i class="bi bi-envelope"></i> marco.vetrano01@gmail.com</a>
+<br>
+<a href="https://www.linkedin.com/in/marco-vetrano-1171a02ba/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i> Marco Vetrano</a>
+<br>
+
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+::: {data-aos="fade-up"}
+
+### About Me
+
+**Data Analyst** and **Computational Physicist** with a background in **Machine Learning** and high-performance computing (HPC). I have gained experience in managing large amounts of data and modeling complex systems at international research centers.
+Accustomed to translating technical analysis into clear and accessible insights, I combine scientific rigor and lateral thinking to develop innovative solutions to complex problems.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Experience
+
+**Data Analyst | Quantum Computing Researcher**
+
+*2023 -- Present | University of Palermo*
+
+*   Development of hybrid (Quantum-Classical) algorithms for the analysis and classification of large astrophysical datasets (PNRR STILES Project).
+*   Optimization of computing pipelines on HPC infrastructures (Leonardo) and IBM Quantum devices, reducing execution times for complex simulations.
+*   **Stack**: Python, HPC.
+
+**Data Analyst | Quantum Machine Learning applied to Time Series Predictions**
+
+*2025 | IFISC - University of the Balearic Islands*
+
+*   Design and implementation of predictive models (Quantum Extreme Learning Machines) for the analysis of chaotic time series.
+*   Application of Reservoir Computing techniques to improve forecasting accuracy on non-linear data.
+*   **Stack**: Python, HPC.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Projects
+
+**QuantumToolBox**
+
+*2025 | University of Palermo*
+
+*   Python package for simulations of quantum dynamics, integrated with tools for building classification models and time series prediction.
+*   Available on GitHub in the [**QuantumStuff**](https://github.com/MarcoVetrano01/QuantumStuff) repository.
+*   **Stack**: NumPy, SciPy.sparse, Plotly, scikit-learn.
+
+**AstroQELM**
+
+*2025-2026 | University of Palermo*
+
+*   Development of a Python package for the implementation of classification models leveraging Quantum Machine Learning, applied to astrophysical data.
+*   Integrated with Qiskit for execution on IBM Quantum devices.
+*   Available on GitHub in the [**AstroQELM**](https://github.com/MarcoVetrano01/AstroQELM) repository.
+*   **Stack**: NumPy, h5py, pandas, Qiskit, scikit-learn, Matplotlib, Seaborn.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Education
+
+*   **2026** - **PhD in Physics**, University of Palermo
+*   **2026** - **Machine Learning and Data Science in Python; Deep Learning and Neural Networks in Python**, Udemy by ProfessionAI
+*   **2026** - **SQL with Oracle, SQL Server and MySQL**, Udemy
+*   **2023** - **Master's Degree in Physics**, University of Palermo
+*   **2019** - **Bachelor's Degree in Physical Sciences**, University of Palermo
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Publications
+
+*   **2025** - "State estimation with quantum extreme learning machines beyond the scrambling time.", *Springer Nature npj Quantum Information* 11.1 (2025): 20.
+*   **2025** - "Exoplanetary atmospheres retrieval via a quantum extreme learning machine.", *arXiv preprint arXiv:2509.03617*.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Certificates
+
+*   **2026** - Udemy Certification: Machine Learning and Data Science in Python
+*   **2023** - Duolingo C1 Certification in English
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Languages
+
+*   **Italian**: Native
+*   **English**: C1
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Other Experience
+
+**Academic Tutor (STEM)**
+
+*2022 and 2024 | University of Palermo*
+
+*   Teaching support for Physics, Mathematical Analysis, and Geometry courses.
+*   Personalized mentoring for students with learning disabilities, translating complex mathematical concepts into accessible explanations.
+
+**Data Analyst Intern**
+
+*2022 | Ri.MED Foundation*
+
+*   Application of Network Analysis techniques for the study of RNA structures, identifying critical interaction patterns.
+
+**Data Analyst Intern**
+
+*2018 | IASF - Institute for Space Astrophysics and Cosmic Physics*
+
+*   Development of C scripts for the processing and spectral analysis of data from black holes.
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Awards
+
+*   **2023** - First place at **QuHack4AI: Quantum Hackathon for Industrial Applications**, organized by the University of Bologna and Unipol with a project on variational algorithms for the study of hydrogen and water molecules.
+*   **2023** - **"Eduardo Gugino" Award** for the Master's thesis on "Information Scrambling in Quantum Extreme Learning Machines".
+
+:::
+
+::: {data-aos="fade-up"}
+
+## Talks
+
+*   **2023** - "Information Scrambling in Quantum Extreme Learning Machines for State Estimation" @ New Trends in Non-equilibrium Statistical Mechanics 2nd Course
+*   **2024** - "QELM response to scrambling dynamics and applications to atmospheric retrieval" @ International School on Non-Equilibrium Phenomena - Quantum Reservoir Computing Working Party
+*   **2025** - "Exoplanetary Retrieval with Quantum Extreme Learning Machines" @ National Congress of the Italian Physical Society (SIF)
+
+:::
+
+:::
+
+:::

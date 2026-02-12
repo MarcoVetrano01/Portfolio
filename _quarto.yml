@@ -21,6 +21,11 @@ website:
       - text: "Curriculum"
         icon: file-pdf
         href: assets/files/CV_Marco_Vetrano.pdf
+    right:
+      - text: "IT"
+        href: index.html
+      - text: "EN"
+        href: index.en.html
 
 quarto-color-scheme:
   toggle-position: right
