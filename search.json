@@ -61,5 +61,68 @@
     "title": "Marco Vetrano | Ricercatore & Data Analyst",
     "section": "Talks",
     "text": "Talks\n\n2023 - “Information Scrambling in Quantum Extreme Learning Machines for State Estimation” @ New Trends in Non-equilibrium Statistical Mechanics 2nd Course\n2024 - “QELM response to scrambling dynamics and applications to atmospheric retrieval” @ International School on Non-Equilibrium Phenomena - Quantum Reservoir Computing Working Party\n2025 - “Exoplanetary Retrieval with Quantum Extreme Learning Machines” @ Congresso Nazionale della Società Italiana dei Fisici"
+  },
+  {
+    "objectID": "index.en.html#experience",
+    "href": "index.en.html#experience",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Experience",
+    "text": "Experience\nData Analyst | Quantum Computing Researcher\n2023 – Present | University of Palermo\n\nDevelopment of hybrid (Quantum-Classical) algorithms for the analysis and classification of large astrophysical datasets (PNRR STILES Project).\nOptimization of computing pipelines on HPC infrastructures (Leonardo) and IBM Quantum devices, reducing execution times for complex simulations.\nStack: Python, HPC.\n\nData Analyst | Quantum Machine Learning applied to Time Series Predictions\n2025 | IFISC - University of the Balearic Islands\n\nDesign and implementation of predictive models (Quantum Extreme Learning Machines) for the analysis of chaotic time series.\nApplication of Reservoir Computing techniques to improve forecasting accuracy on non-linear data.\nStack: Python, HPC."
+  },
+  {
+    "objectID": "index.en.html#projects",
+    "href": "index.en.html#projects",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Projects",
+    "text": "Projects\nQuantumToolBox\n2025 | University of Palermo\n\nPython package for simulations of quantum dynamics, integrated with tools for building classification models and time series prediction.\nAvailable on GitHub in the QuantumStuff repository.\nStack: NumPy, SciPy.sparse, Plotly, scikit-learn.\n\nAstroQELM\n2025-2026 | University of Palermo\n\nDevelopment of a Python package for the implementation of classification models leveraging Quantum Machine Learning, applied to astrophysical data.\nIntegrated with Qiskit for execution on IBM Quantum devices.\nAvailable on GitHub in the AstroQELM repository.\nStack: NumPy, h5py, pandas, Qiskit, scikit-learn, Matplotlib, Seaborn."
+  },
+  {
+    "objectID": "index.en.html#education",
+    "href": "index.en.html#education",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Education",
+    "text": "Education\n\n2026 - PhD in Physics, University of Palermo\n2026 - Machine Learning and Data Science in Python; Deep Learning and Neural Networks in Python, Udemy by ProfessionAI\n2026 - SQL with Oracle, SQL Server and MySQL, Udemy\n2023 - Master’s Degree in Physics, University of Palermo\n2019 - Bachelor’s Degree in Physical Sciences, University of Palermo"
+  },
+  {
+    "objectID": "index.en.html#publications",
+    "href": "index.en.html#publications",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Publications",
+    "text": "Publications\n\n2025 - “State estimation with quantum extreme learning machines beyond the scrambling time.”, Springer Nature npj Quantum Information 11.1 (2025): 20.\n2025 - “Exoplanetary atmospheres retrieval via a quantum extreme learning machine.”, arXiv preprint arXiv:2509.03617."
+  },
+  {
+    "objectID": "index.en.html#certificates",
+    "href": "index.en.html#certificates",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Certificates",
+    "text": "Certificates\n\n2026 - Udemy Certification: Machine Learning and Data Science in Python\n2023 - Duolingo C1 Certification in English"
+  },
+  {
+    "objectID": "index.en.html#languages",
+    "href": "index.en.html#languages",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Languages",
+    "text": "Languages\n\nItalian: Native\nEnglish: C1"
+  },
+  {
+    "objectID": "index.en.html#other-experience",
+    "href": "index.en.html#other-experience",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Other Experience",
+    "text": "Other Experience\nAcademic Tutor (STEM)\n2022 and 2024 | University of Palermo\n\nTeaching support for Physics, Mathematical Analysis, and Geometry courses.\nPersonalized mentoring for students with learning disabilities, translating complex mathematical concepts into accessible explanations.\n\nData Analyst Intern\n2022 | Ri.MED Foundation\n\nApplication of Network Analysis techniques for the study of RNA structures, identifying critical interaction patterns.\n\nData Analyst Intern\n2018 | IASF - Institute for Space Astrophysics and Cosmic Physics\n\nDevelopment of C scripts for the processing and spectral analysis of data from black holes."
+  },
+  {
+    "objectID": "index.en.html#awards",
+    "href": "index.en.html#awards",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Awards",
+    "text": "Awards\n\n2023 - First place at QuHack4AI: Quantum Hackathon for Industrial Applications, organized by the University of Bologna and Unipol with a project on variational algorithms for the study of hydrogen and water molecules.\n2023 - “Eduardo Gugino” Award for the Master’s thesis on “Information Scrambling in Quantum Extreme Learning Machines”."
+  },
+  {
+    "objectID": "index.en.html#talks",
+    "href": "index.en.html#talks",
+    "title": "Marco Vetrano | Researcher & Data Analyst",
+    "section": "Talks",
+    "text": "Talks\n\n2023 - “Information Scrambling in Quantum Extreme Learning Machines for State Estimation” @ New Trends in Non-equilibrium Statistical Mechanics 2nd Course\n2024 - “QELM response to scrambling dynamics and applications to atmospheric retrieval” @ International School on Non-Equilibrium Phenomena - Quantum Reservoir Computing Working Party\n2025 - “Exoplanetary Retrieval with Quantum Extreme Learning Machines” @ National Congress of the Italian Physical Society (SIF)"
   }
 ]
