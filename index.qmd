@@ -39,11 +39,16 @@ format:
 <div style="font-size: 0.85rem;">
 
 <div class="d-flex flex-wrap gap-2">
-  <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Python</span>
-  <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">LaTeX</span>
-  <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">SQL</span>
-  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Quarto</span>
-  <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Git</span>
+  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Python</span>
+  <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Pytorch</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #fd7e14;">TensorFlow</span>
+  <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">Hugging Face</span>
+  <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Langchain</span>
+  <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">Docker</span>
+  <span class="badge rounded-pill bg-secondary" style="font-size: 1rem;">LaTeX</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6610f2;">SQL</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #20c997;">Quarto</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #e83e8c;">Git</span>
 </div>
 
 </div>
@@ -162,7 +167,7 @@ Abituato a tradurre analisi tecniche in insight chiari e accessibili, unisco rig
 
 ## Pubblicazioni
 
-*   **2025** - "State estimation with quantum extreme learning machines beyond the scrambling time.", *npj Quantum Information* 11.1 (2025): 20.
+*   **2025** - "State estimation with quantum extreme learning machines beyond the scrambling time.", *Springer Nature npj Quantum Information* 11.1 (2025): 20.
 *   **2025** - "Exoplanetary atmospheres retrieval via a quantum extreme learning machine.", *arXiv preprint arXiv:2509.03617*.
 
 :::
