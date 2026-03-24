@@ -47,7 +47,7 @@ format:
   <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">Docker</span>
   <span class="badge rounded-pill bg-secondary" style="font-size: 1rem;">LaTeX</span>
   <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6610f2;">SQL</span>
-  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #20c997;">Quarto</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #1f81a8;">Quarto</span>
   <span class="badge rounded-pill" style="font-size: 1rem; background-color: #e83e8c;">Git</span>
 </div>
 
