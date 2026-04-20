@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - assets/js/aos/
+    - assets/files/*.pdf
 
 website:
   title: "Marco Vetrano | Ricercatore & Data Analyst"
