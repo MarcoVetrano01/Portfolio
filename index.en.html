@@ -304,6 +304,10 @@ ul.task-list li input[type="checkbox"] {
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     AOS.init();
+        const curriculumLink = document.querySelector('.navbar a.nav-link[href$="CV_Marco_Vetrano.pdf"]');
+        if (curriculumLink) {
+            curriculumLink.setAttribute('href', 'assets/files/CV_MarcoVetrano_Eng.pdf');
+        }
   });
 </script>
 <div class="grid">
@@ -321,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="technology-stack">Technology Stack</h3>
 <div style="font-size: 0.85rem;">
 <div class="d-flex flex-wrap gap-2">
-<p><span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Python</span> <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Pytorch</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #fd7e14;">TensorFlow</span> <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">Hugging Face</span> <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Langchain</span> <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">Docker</span> <span class="badge rounded-pill bg-secondary" style="font-size: 1rem;">LaTeX</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6610f2;">SQL</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #1f81a8;">Quarto</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #e83e8c;">Git</span></p>
+<p><span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Python</span> <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Pytorch</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #fd7e14;">TensorFlow</span> <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">Hugging Face</span> <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Langchain</span> <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">Docker</span> <span class="badge rounded-pill bg-secondary" style="font-size: 1rem;">LaTeX</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6610f2;">SQL</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #1f81a8;">Quarto</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #e83e8c;">Git</span> <span class="badge rounded-pill bg-dark" style="font-size: 1rem;">XGBoost</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6c757d;">Linux</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #0d6efd;">AWS</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #198754;">PySpark</span> <span class="badge rounded-pill" style="font-size: 1rem; background-color: #0dcaf0;">FastAPI</span></p>
 </div>
 </div>
 </section>
@@ -365,7 +369,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Data Analyst | Quantum Machine Learning applied to Time Series Predictions</strong></p>
 <p><em>2025 | IFISC - University of the Balearic Islands</em></p>
 <ul>
-<li>Design and implementation of predictive models (Quantum Extreme Learning Machines) for the analysis of chaotic time series.</li>
+<li>Design and implementation of predictive models (Quantum Reservoir Computing) for the analysis of chaotic time series.</li>
 <li>Application of Reservoir Computing techniques to improve forecasting accuracy on non-linear data.</li>
 <li><strong>Stack</strong>: Python, HPC.</li>
 </ul>
@@ -375,23 +379,40 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>QuantumToolBox</strong></p>
 <p><em>2025 | University of Palermo</em></p>
 <ul>
-<li>Python package for simulations of quantum dynamics, integrated with tools for building classification models and time series prediction.</li>
+<li>Python package developed mainly with NumPy, scikit-learn, and Plotly for implementing quantum dynamics and building classification and time series prediction models.</li>
 <li>Available on GitHub in the <a href="https://github.com/MarcoVetrano01/QuantumStuff"><strong>QuantumStuff</strong></a> repository.</li>
 <li><strong>Stack</strong>: NumPy, SciPy.sparse, Plotly, scikit-learn.</li>
 </ul>
 <p><strong>AstroQELM</strong></p>
 <p><em>2025-2026 | University of Palermo</em></p>
 <ul>
-<li>Development of a Python package for the implementation of classification models leveraging Quantum Machine Learning, applied to astrophysical data.</li>
-<li>Integrated with Qiskit for execution on IBM Quantum devices.</li>
+<li>Python package designed for end-to-end analysis of spectral data, with functions for reading and parsing h5 and txt files, preprocessing and compression with scikit-learn, and processing and classification with Qiskit, NumPy, and scikit-learn.</li>
 <li>Available on GitHub in the <a href="https://github.com/MarcoVetrano01/AstroQELM"><strong>AstroQELM</strong></a> repository.</li>
 <li><strong>Stack</strong>: NumPy, h5py, pandas, Qiskit, scikit-learn, Matplotlib, Seaborn.</li>
+</ul>
+<p><strong>Instagram-Analyzer</strong></p>
+<p><em>2026</em></p>
+<ul>
+<li>Backend app developed with FastAPI in Python for scraping Instagram profiles.</li>
+<li>Extracts the latest reel and its comments using two Apify actors, then computes BPM and duration; it also includes Hugging Face models for speech-to-text transcription and sentiment analysis.</li>
+<li>GitHub repository: <a href="https://github.com/MarcoVetrano01/instagram-analyzer"><strong>instagram-analyzer</strong></a></li>
+<li><strong>Stack</strong>: FastAPI, Python, Apify, Hugging Face, Docker.</li>
+</ul>
+<p><strong>Olist-App</strong></p>
+<p><em>2026</em></p>
+<ul>
+<li>Project for the end-to-end analysis of the Olist e-commerce dataset, with a pipeline for data download, database construction with SQLAlchemy, querying, aggregation, and cleaning in PostgreSQL.</li>
+<li>Includes three sentiment analysis models of increasing complexity developed with scikit-learn, PyTorch, and Hugging Face.</li>
+<li>Currently under development, with planned additions for a Streamlit GUI, a customer care agent, and a Tableau interface for aggregated data visualization.</li>
+<li>GitHub repository: <a href="https://github.com/MarcoVetrano01/Olist-App"><strong>Olist-App</strong></a></li>
+<li><strong>Stack</strong>: Docker, SQLAlchemy, PostgreSQL, scikit-learn, PyTorch, Hugging Face, Streamlit, Tableau.</li>
 </ul>
 </section>
 <section id="education" class="level2" data-aos="fade-up">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
 <ul>
 <li><strong>2026</strong> - <strong>PhD in Physics</strong>, University of Palermo</li>
+<li><strong>2026 - Present</strong> - <strong>Master in AI Development and Engineering</strong>, ProfessionAI</li>
 <li><strong>2026</strong> - <strong>Machine Learning and Data Science in Python; Deep Learning and Neural Networks in Python</strong>, Udemy by ProfessionAI</li>
 <li><strong>2026</strong> - <strong>SQL with Oracle, SQL Server and MySQL</strong>, Udemy</li>
 <li><strong>2023</strong> - <strong>Master’s Degree in Physics</strong>, University of Palermo</li>
