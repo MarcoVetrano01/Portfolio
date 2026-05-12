@@ -44,20 +44,21 @@ format:
 
 <div class="d-flex flex-wrap gap-2">
   <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Python</span>
-  <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Pytorch</span>
-  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #fd7e14;">TensorFlow</span>
-  <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">Hugging Face</span>
-  <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Langchain</span>
-  <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">Docker</span>
-  <span class="badge rounded-pill bg-secondary" style="font-size: 1rem;">LaTeX</span>
   <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6610f2;">SQL</span>
-  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #1f81a8;">Quarto</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #777;">C++</span>
+  <span class="badge rounded-pill bg-info text-dark" style="font-size: 1rem;">Docker</span>
+  <span class="badge rounded-pill bg-danger" style="font-size: 1rem;">Pytorch</span>
+  <span class="badge rounded-pill bg-warning text-dark" style="font-size: 1rem;">Hugging Face</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #fd7e14;">TensorFlow</span>
+  <span class="badge rounded-pill bg-dark" style="font-size: 1rem;">XGBoost</span>
+  <span class="badge rounded-pill bg-success" style="font-size: 1rem;">Langchain</span>
   <span class="badge rounded-pill" style="font-size: 1rem; background-color: #e83e8c;">Git</span>
-    <span class="badge rounded-pill bg-dark" style="font-size: 1rem;">XGBoost</span>
-    <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6c757d;">Linux</span>
-    <span class="badge rounded-pill" style="font-size: 1rem; background-color: #0d6efd;">AWS</span>
-    <span class="badge rounded-pill" style="font-size: 1rem; background-color: #198754;">PySpark</span>
-    <span class="badge rounded-pill" style="font-size: 1rem; background-color: #0dcaf0;">FastAPI</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #0dcaf0;">FastAPI</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #6c757d;">Linux</span>
+  <span class="badge rounded-pill bg-secondary" style="font-size: 1rem;">LaTeX</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #1f81a8;">Quarto</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #0d6efd;">AWS</span>
+  <span class="badge rounded-pill" style="font-size: 1rem; background-color: #198754;">PySpark</span>
 </div>
 
 </div>
@@ -108,8 +109,7 @@ format:
 
 ### About Me
 
-**Data Analyst** and **Computational Physicist** with a background in **Machine Learning** and high-performance computing (HPC). I have gained experience in managing large amounts of data and modeling complex systems at international research centers.
-Accustomed to translating technical analysis into clear and accessible insights, I combine scientific rigor and lateral thinking to develop innovative solutions to complex problems.
+**Computational Physicist** and **Data Scientist**. Specialized in developing scalable **Machine Learning** models for insight extraction. I design and implement **AI** solutions to solve complex analytical problems.
 
 :::
 
@@ -117,21 +117,19 @@ Accustomed to translating technical analysis into clear and accessible insights,
 
 ## Experience
 
-**Data Analyst | Quantum Computing Researcher**
+**Quantum Machine Learning R&D**
 
 *2023 -- Present | University of Palermo*
 
-*   Development of hybrid (Quantum-Classical) algorithms for the analysis and classification of large astrophysical datasets (PNRR STILES Project).
-*   Optimization of computing pipelines on HPC infrastructures (Leonardo) and IBM Quantum devices, reducing execution times for complex simulations.
-*   **Stack**: Python, HPC.
+*   Development of hybrid (Quantum-Classical) algorithms for analyzing and classifying large astrophysical datasets (PNRR STILES Project). Code deployment on Leonardo HPC and IBM Quantum devices.
+*   **Stack**: Python, Linux, Scikit-Learn, PyTorch.
 
-**Data Analyst | Quantum Machine Learning applied to Time Series Predictions**
+**Quantum Machine Learning R&D**
 
 *2025 | IFISC - University of the Balearic Islands*
 
-*   Design and implementation of predictive models (Quantum Reservoir Computing) for the analysis of chaotic time series.
-*   Application of Reservoir Computing techniques to improve forecasting accuracy on non-linear data.
-*   **Stack**: Python, HPC.
+*   Design and implementation of predictive models for chaotic time series analysis. Code deployment on IFISC-owned HPC cluster.
+*   **Stack**: Python, Linux, Docker, Scikit-Learn, PyTorch.
 
 :::
 
@@ -211,8 +209,8 @@ Accustomed to translating technical analysis into clear and accessible insights,
 
 ## Languages
 
-*   **Italian**: Native
-*   **English**: C1
+*   **Italian**: C2 - Native Speaker
+*   **English**: C1 - Writing, Reading, Listening, Speaking
 
 :::
 
@@ -225,7 +223,7 @@ Accustomed to translating technical analysis into clear and accessible insights,
 *2022 and 2024 | University of Palermo*
 
 *   Teaching support for Physics, Mathematical Analysis, and Geometry courses.
-*   Personalized mentoring for students with learning disabilities, translating complex mathematical concepts into accessible explanations.
+*   Personalized mentoring for students with learning disabilities (DSA).
 
 **Data Analyst Intern**
 

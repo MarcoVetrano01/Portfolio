@@ -1,5 +1,5 @@
 ---
-title: "Marco Vetrano | Ricercatore & Data Analyst"
+title: "Marco Vetrano"
 format:
   html:
     page-layout: full
@@ -106,8 +106,7 @@ format:
 
 ### About Me
 
-**Data Analyst** e **Fisico Computazionale** con background in **Machine Learning** e calcolo ad alte prestazioni (HPC). Ho maturato esperienza nella gestione di grandi moli di dati e nella modellazione di sistemi complessi presso centri di ricerca internazionali.
-Abituato a tradurre analisi tecniche in insight chiari e accessibili, unisco rigore scientifico e pensiero laterale per sviluppare soluzioni innovative a problemi complessi.
+**Fisico Computazionale** e **Data Scientist**. Specializzato nello sviluppo di modelli di **Machine Learning** scalabili per l'estrazione di insight dai dati. Progetto e implemento soluzioni **AI** per la risoluzione di problemi analitici complessi.
 
 :::
 
@@ -115,21 +114,19 @@ Abituato a tradurre analisi tecniche in insight chiari e accessibili, unisco rig
 
 ## Esperienze
 
-**Data Analyst | Quantum Computing Researcher**
+**Ricerca e Sviluppo in Quantum Machine Learning**
 
 *2023 -- Presente | Università degli Studi di Palermo*
 
-*   Sviluppo di algoritmi ibridi (Quantum-Classical) per l'analisi e la classificazione di grandi dataset astrofisici (Progetto PNRR STILES).
-*   Ottimizzazione di pipeline di calcolo su infrastrutture HPC (Leonardo) e dispositivi IBM Quantum, riducendo i tempi di esecuzione per simulazioni complesse.
-*   **Stack**: Python, HPC.
+*   Sviluppo di algoritmi ibridi (Quantum-Classical) per l'analisi e la classificazione di grandi dataset astrofisici (Progetto PNRR STILES). Deployment di codici su HPC Leonardo e dispositivi quantistici IBM Quantum.
+*   **Stack**: Python, Linux, Scikit-Learn, PyTorch.
 
-**Data Analyst | Quantum Machine Learning applicato a Predizioni di Serie Temporali**
+**Ricerca e Sviluppo in Quantum Machine Learning**
 
 *2025 | IFISC - Università delle Isole Baleari*
 
-*   Progettazione e implementazione di modelli predittivi (Quantum Reservoir Computing) per l'analisi di serie temporali caotiche.
-*   Applicazione di tecniche di Reservoir Computing per migliorare l'accuratezza delle previsioni su dati non lineari.
-*   **Stack**: Python, HPC.
+*   Progettazione e implementazione di modelli predittivi per l'analisi di serie temporali caotiche. Deployment di codici su HPC di proprietà dell'IFISC.
+*   **Stack**: Python, Linux, Docker, Scikit-Learn, PyTorch.
 
 :::
 
@@ -209,8 +206,8 @@ Abituato a tradurre analisi tecniche in insight chiari e accessibili, unisco rig
 
 ## Lingue
 
-*   **Italiano**: Madre Lingua
-*   **Inglese**: C1
+*   **Italiano**: C2 - Madre Lingua
+*   **Inglese**: C1 - Scritto, Lettura, Ascolto, Parlato
 
 :::
 
@@ -223,7 +220,7 @@ Abituato a tradurre analisi tecniche in insight chiari e accessibili, unisco rig
 *2022 e 2024 | Università degli Studi di Palermo*
 
 *   Supporto alla didattica per i corsi di Fisica, Analisi Matematica e Geometria.
-*   Mentoring personalizzato per studenti con disturbi dell'apprendimento, traducendo concetti matematici complessi in spiegazioni accessibili.
+*   Mentoring personalizzato per studenti con disturbi dell'apprendimento.
 
 **Data Analyst Intern**
 
