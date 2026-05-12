@@ -206,8 +206,10 @@ format:
 
 ## Lingue
 
-*   **Italiano**: C2 - Madre Lingua
-*   **Inglese**: C1 - Scritto, Lettura, Ascolto, Parlato
+| Lingua | Livello | Dettagli |
+|---|---|---|
+| Italiano | C2 | Madre Lingua |
+| Inglese | C1 | Scritto: C1, Lettura: C1, Ascolto: C1, Parlato: C1 |
 
 :::
 

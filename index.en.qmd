@@ -209,8 +209,10 @@ format:
 
 ## Languages
 
-*   **Italian**: C2 - Native Speaker
-*   **English**: C1 - Writing, Reading, Listening, Speaking
+| Language | Level | Details |
+|---|---|---|
+| Italian | C2 | Native Speaker |
+| English | C1 | Writing: C1, Reading: C1, Listening: C1, Speaking: C1 |
 
 :::
 
