@@ -6,7 +6,7 @@ project:
     - assets/files/*.pdf
 
 website:
-  title: "Marco Vetrano | Ricercatore & Data Analyst"
+  title: "Marco Vetrano - Curriculum Vitae"
   favicon: "🔬"
   search: false
   navbar:
