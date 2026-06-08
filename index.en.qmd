@@ -51,9 +51,11 @@ format:
   <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">SQL</span>
   <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Quarto</span>
   <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Git</span>
-    <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">XGBoost</span>
-    <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Linux</span>
-    <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">AWS</span>
+  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">XGBoost</span>
+  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Linux</span>
+  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">AWS</span>
+  <span class="badge rounded-pill bg-primary" style="font-size: 1rem;">Agents Orchestration</span>
+
     <span class="badge rounded-pill bg-primary" style="font-size: 1rem; background-color: #198754;">PySpark</span>
     <span class="badge rounded-pill bg-primary" style="font-size: 1rem; background-color: #0dcaf0;">FastAPI</span>
     <span class="badge rounded-pill bg-primary" style="font-size: 1rem; background-color: #333333;">C++</span>
